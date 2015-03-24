@@ -1,0 +1,5 @@
+base:
+  '*':
+    - source
+    - pkg
+    - service

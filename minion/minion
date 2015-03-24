@@ -1,0 +1,3 @@
+# Config file for minion
+
+master: salt-master

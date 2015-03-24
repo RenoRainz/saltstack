@@ -1,0 +1,5 @@
+127.0.0.1 localhost
+172.16.0.100 salt-master.internal salt-master
+172.16.0.101 minion-1.internal minion-1
+172.16.0.102 minion-2.internal minion-2
+172.16.0.103 minion-3.internal minion-3
