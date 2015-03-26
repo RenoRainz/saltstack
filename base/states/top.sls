@@ -7,7 +7,11 @@ base:
 
   'roles:webserver':
     - match: grain
-    - webserver.packages
+    - roles.webserver
+
+  'roles:mysqlserver':
+    - match: grain
+    - roles.mysqlserver
 
   'roles:vm':
     - match: grain
