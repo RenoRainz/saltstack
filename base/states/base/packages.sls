@@ -4,6 +4,15 @@ lsscsi:
 sudo:
   pkg.installed
 
+htop:
+  pkg.installed
+
+nmon:
+  pkg.installed
+
+sysstat:
+  pkg.installed
+
 vim:
   pkg.installed:
     - name: {{ pillar['pkgs']['vim'] }}

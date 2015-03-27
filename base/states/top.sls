@@ -4,6 +4,7 @@ base:
     - base.groups
     - base.packages
     - base.networks
+    - machines.{{ grains['host']}}
 
   'roles:webserver':
     - match: grain
@@ -16,3 +17,4 @@ base:
   'roles:vm':
     - match: grain
     - vm.packages
+
