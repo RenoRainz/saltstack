@@ -13,6 +13,12 @@ nmon:
 sysstat:
   pkg.installed
 
+iptables:
+  pkg.installed
+
+lvm2:
+  pkg.installed
+
 vim:
   pkg.installed:
     - name: {{ pillar['pkgs']['vim'] }}

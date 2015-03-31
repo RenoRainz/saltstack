@@ -1,0 +1,3 @@
+dev:
+  'd-*':
+    - dev.users

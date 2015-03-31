@@ -18,6 +18,6 @@ base:
     - match: grain
     - vm.packages
 
-  'apps:mywebapp':
+  'apps: mywebapp'
     - match: grain
     - apps.mywebapp
